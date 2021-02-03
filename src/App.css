@@ -25,12 +25,14 @@ nav ul li{
   margin-right: 0.75rem;
   margin-left: 0.75rem;
   border-top: 0.1875rem solid var(--primary-dark);
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .navbar-brand{
   max-width: 17.25rem;
   padding: 0 !important;
-  height: 6rem !important;
+  height: 3rem !important;
+  
 }
 
 .navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
@@ -39,4 +41,59 @@ nav ul li{
 
 .navbar-nav > li > a:hover {
   border-top: 0.1875rem solid var(--primary-orange);
+}
+
+.header-wraper{
+  position: relative;
+  background: url(background.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 95vh;
+}
+
+.main-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  margin-top: 30px;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.myName{
+  font-size: 60px;
+}
+
+.typed-text{
+  font-size: 1.5rem;
+
+}
+
+.btn-main-offer{
+
+}
+nav{
+  z-index: 2;
+}
+
+.tsparticles-canvas-el{
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+}
+
+@media(max-width: 768px) {
+  .main-info h1 {
+    font-size: 1.5rem !important;
+  }
+  .typed-text {
+    font-size: 1.3rem;
+  }
 }
