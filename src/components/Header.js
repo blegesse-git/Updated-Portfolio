@@ -1,11 +1,12 @@
 import React from 'react';
 import Typed from 'react-typed';
 
+
 const Header = () => {
     return (
         <div className="header-wraper">
             <div className="main-info">
-                <h1 className="myName">Bethelhem Legesse</h1>
+                <h1 className="myName">Bethlehem Legesse</h1>
                 <Typed 
                     className="typed-text"
                     strings={["Web Design", "Web Development"]}
@@ -13,7 +14,8 @@ const Header = () => {
                     backSpeed={60}
                     loop
                 />
-                <a href="#" className="btn-main-offer" ></a>
+                {/* <a href="#" className="btn-main-offer" ></a> */}
+                
             </div>
         </div>
     )
