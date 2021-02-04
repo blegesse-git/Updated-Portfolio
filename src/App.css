@@ -4,6 +4,8 @@
   --primary-white: #fff;
   --primary-orange: #f9ab00;
   --primary-dark: rgba(255,255,255,0);
+  --primary-black: #000000;
+
 }
 body{
   font-family: 'Roboto Condensed', sans-serif !important;
@@ -106,6 +108,81 @@ nav{
   border-radius: 50%;
   padding: .3rem;
   border: 1px solid var(--primary-orange);
+}
+
+.portfolio-wrapper {
+  /* background: ; */
+  padding: 3rem 0;
+
+}
+
+.portfolio-image{
+  width: 15rem;
+  border: 1px solid var(--primary-orange);
+  padding: 0 0.5rem;
+}
+
+.portfolio-image-box {
+  position: relative;
+  margin: 1rem;
+}
+
+/* over flow box */
+.overflow {
+  position: absolute;
+  opacity: 0;
+  background: var(--primary-black);
+  width: 15rem;
+  height: 10rem;
+  top: 0;
+  border: 1px solid var(--primary-orange);
+  cursor: pointer;
+}
+
+.portfolio-image-box:hover .overflow {
+  opacity: 60%;
+  transition: 0.3s ease-in-out;
+}
+
+.portfolio-image-popupbox {
+  width: 45rem;
+  padding: 0 0.5rem;
+}
+
+.hyper-link {
+  cursor: pointer;
+  color: var(--primary-orange);
+}
+
+.hyper-link:hover {
+  
+  color: grey;
+}
+
+.portfolio-wrapper h1{
+  color: #f9ab00;
+}
+
+@media(max-width: 768px) {
+  .portfolio-image-popupbox {
+    width: 100%;
+  }
+}
+@media(max-height: 570px) {
+  .popupbox-wrapper {
+    height: 100% ;
+  }
+  .portfolio-image-popupbox {
+    width: 50%;
+  }
+}
+@media(max-height: 280px) {
+  .popupbox-wrapper {
+    height: 90% ;
+  }
+  .portfolio-image-popupbox {
+    width: 30%;
+  }
 }
 
 @media(max-width: 768px) {
