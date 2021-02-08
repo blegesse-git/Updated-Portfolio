@@ -241,7 +241,7 @@ function Portfolio() {
     const popupboxConfigBook = {
         titleBar: {
             enable: true,
-            text: "Google Book Search App"
+            text: "Google Book Search"
         },
         fadeIn: true,
         fadeInSpeed: 500
