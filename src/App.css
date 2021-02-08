@@ -4,9 +4,11 @@
   --primary-white: #fff;
   --primary-orange: #f9ab00;
   --primary-dark: rgba(255,255,255,0);
+  --primary-black: #000000;
+
 }
 body{
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif !important;
 }
 
 /* Menu links*/
@@ -60,7 +62,8 @@ nav ul li{
   font-family: 'Roboto Condensed', sans-serif;
   text-transform: uppercase;
   position: absolute;
-  margin-top: 30px;
+  margin-top: 200px;
+  
   right: 0;
   left: 0;
   z-index: 1;
@@ -75,11 +78,15 @@ nav ul li{
 
 }
 
-.btn-main-offer{
 
-}
 nav{
   z-index: 2;
+}
+
+.aboutMe{
+  text-align: center;
+  color: #f9ab00;
+  text-transform: uppercase;
 }
 
 .tsparticles-canvas-el{
@@ -89,11 +96,106 @@ nav{
   z-index: 1;
 }
 
+/* about me*/
+
+.photo-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile-img{
+  width: 16rem;
+  border-radius: 50%;
+  padding: .3rem;
+  border: 1px solid var(--primary-orange);
+}
+
+.portfolio-wrapper {
+  /* background: ; */
+  padding: 3rem 0;
+
+}
+
+.portfolio-image{
+  width: 15rem;
+  border: 1px solid var(--primary-orange);
+  padding: 0 0.5rem;
+}
+
+.portfolio-image-box {
+  position: relative;
+  margin: 1rem;
+}
+
+/* over flow box */
+.overflow {
+  position: absolute;
+  opacity: 0;
+  background: var(--primary-black);
+  width: 15rem;
+  height: 10rem;
+  top: 0;
+  border: 1px solid var(--primary-orange);
+  cursor: pointer;
+}
+
+.portfolio-image-box:hover .overflow {
+  opacity: 60%;
+  transition: 0.3s ease-in-out;
+}
+
+.portfolio-image-popupbox {
+  width: 45rem;
+  padding: 0 0.5rem;
+}
+
+.hyper-link {
+  cursor: pointer;
+  color: var(--primary-orange);
+}
+
+.hyper-link:hover {
+  
+  color: grey;
+}
+
+.portfolio-wrapper h1{
+  color: #f9ab00;
+}
+
+@media(max-width: 768px) {
+  .portfolio-image-popupbox {
+    width: 100%;
+  }
+}
+@media(max-height: 570px) {
+  .popupbox-wrapper {
+    height: 100% ;
+  }
+  .portfolio-image-popupbox {
+    width: 50%;
+  }
+}
+@media(max-height: 280px) {
+  .popupbox-wrapper {
+    height: 90% ;
+  }
+  .portfolio-image-popupbox {
+    width: 30%;
+  }
+}
+
 @media(max-width: 768px) {
   .main-info h1 {
     font-size: 1.5rem !important;
   }
   .typed-text {
     font-size: 1.3rem;
+  }
+}
+
+@media(max-width: 468px) {
+  .profile-img {
+    width: 10rem;
   }
 }
