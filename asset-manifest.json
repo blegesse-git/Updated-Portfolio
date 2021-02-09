@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/Updated-Portfolio/static/css/main.65ec97b1.chunk.css",
+    "main.js": "/Updated-Portfolio/static/js/main.f3454819.chunk.js",
+    "main.js.map": "/Updated-Portfolio/static/js/main.f3454819.chunk.js.map",
+    "runtime-main.js": "/Updated-Portfolio/static/js/runtime-main.5a764248.js",
+    "runtime-main.js.map": "/Updated-Portfolio/static/js/runtime-main.5a764248.js.map",
+    "static/css/2.a894a7ba.chunk.css": "/Updated-Portfolio/static/css/2.a894a7ba.chunk.css",
+    "static/js/2.9e2ab9b7.chunk.js": "/Updated-Portfolio/static/js/2.9e2ab9b7.chunk.js",
+    "static/js/2.9e2ab9b7.chunk.js.map": "/Updated-Portfolio/static/js/2.9e2ab9b7.chunk.js.map",
+    "static/js/3.43c3243e.chunk.js": "/Updated-Portfolio/static/js/3.43c3243e.chunk.js",
+    "static/js/3.43c3243e.chunk.js.map": "/Updated-Portfolio/static/js/3.43c3243e.chunk.js.map",
+    "index.html": "/Updated-Portfolio/index.html",
+    "static/css/2.a894a7ba.chunk.css.map": "/Updated-Portfolio/static/css/2.a894a7ba.chunk.css.map",
+    "static/css/main.65ec97b1.chunk.css.map": "/Updated-Portfolio/static/css/main.65ec97b1.chunk.css.map",
+    "static/js/2.9e2ab9b7.chunk.js.LICENSE.txt": "/Updated-Portfolio/static/js/2.9e2ab9b7.chunk.js.LICENSE.txt",
+    "static/media/Lit&Wine.53f0cbf0.png": "/Updated-Portfolio/static/media/Lit&Wine.53f0cbf0.png",
+    "static/media/PWA.a54e50ab.jpg": "/Updated-Portfolio/static/media/PWA.a54e50ab.jpg",
+    "static/media/App.css": "/Updated-Portfolio/static/media/background.be1e2f12.jpg",
+    "static/media/bookSearch.7f5f33db.jpg": "/Updated-Portfolio/static/media/bookSearch.7f5f33db.jpg",
+    "static/media/dayPlanner.6350c9ba.png": "/Updated-Portfolio/static/media/dayPlanner.6350c9ba.png",
+    "static/media/employeeSummary.20aca118.png": "/Updated-Portfolio/static/media/employeeSummary.20aca118.png",
+    "static/media/esthete.6a061137.png": "/Updated-Portfolio/static/media/esthete.6a061137.png",
+    "static/media/fitnessApp.c7cec193.jpg": "/Updated-Portfolio/static/media/fitnessApp.c7cec193.jpg",
+    "static/media/headshot.66dc66ad.jpg": "/Updated-Portfolio/static/media/headshot.66dc66ad.jpg",
+    "static/media/noteTaker.753ca872.jpeg": "/Updated-Portfolio/static/media/noteTaker.753ca872.jpeg",
+    "static/media/partie.8e3d252f.png": "/Updated-Portfolio/static/media/partie.8e3d252f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5a764248.js",
+    "static/css/2.a894a7ba.chunk.css",
+    "static/js/2.9e2ab9b7.chunk.js",
+    "static/css/main.65ec97b1.chunk.css",
+    "static/js/main.f3454819.chunk.js"
+  ]
+}
